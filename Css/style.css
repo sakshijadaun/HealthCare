@@ -6,13 +6,62 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
- 
-#nav-links{
+.logo{
+    width: 20%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: 5px;
+    align-items: center;
+    font-weight:bolder;
+    color:rgb(53, 53, 128);
     
 }
- ul .btn{
+.logo img{
+    width: 20%;
+    border: 2px solid rgb(53, 53, 128);
+    border-radius: 50px;
+
+}
+h2{
+    padding: 10px;
+    
+}
+ 
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-list li{
+    list-style: none;
+    font-weight: bolder;
+
+}
+.nav-list li a:hover{
+    list-style: none;
+    color: brown;
+
+}
+.nav-list a{
     text-decoration: none;
+    color:rgb(53, 53, 128);
+    
+}
+.background{
+    background: rgba(0,0,0,0.7) url('../images/care-for-the-elderly-6960542_1280.jpg');
+    background-size: cover;
+    background-position: sticky;
+    background-blend-mode: darken;
+    
+  
+}
+.navbar{
+    background-color: rgb(126, 190, 190);
+}
+.about{
+    color: white;
+    width: 50%;
+    padding: 4em;
+    font-size: large;
 }
